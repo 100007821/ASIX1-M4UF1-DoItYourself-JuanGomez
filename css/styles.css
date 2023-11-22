@@ -1,39 +1,38 @@
-* {
+* { /*Cambiaremos el formato de letra de todo el HTML con ```*```, añadiendo el formato de letra "Kdam Thmor Pro" de solo "Regular 400" no elegir otras opciones at 48px, ni at 36 px. Para más aclaración [Enlace al formato de letra](https://fonts.google.com/specimen/Kdam+Thmor+Pro "Enlace al tipo de letra").*/
     font-family: 'Kdam Thmor Pro', sans-serif;
 }
-body {
-    background-color: bisque;
+body {  /*Ahora en la etiqueta de ```body```, le pondremos un color de fondo "bisque", también un margen del 5%. Por último colocaremos un padding de 20% tanto en la izquierda y derecha.*/    background-color: bisque;
     margin: 5%;
     padding-left: 20%;
     padding-right: 20%;
 }
-h1 {
+h1 { /*A la etiqueta ```h1``` lo alineamos al centro de la página y le ponemos en color "blue".*/
     text-align: center; 
     color: blue;        
 }
-p {
+p { /*Las etiquetas ```p``` lo pondremos un ```border-radius``` de 5px y un border solido de color "green".*/
     border-radius: 5px;
     border: 1px solid green;
   }
-  #tanteo {
+  #tanteo { /*La etiqueta de ```h2``` con id tanteo llevará un decoración de texto de "underline".*/
     text-decoration: underline;
   }
 
-  ol li {
+  ol li { /*Las etiqueta descendientes de ```ol```, es decir, ```il``` llevará un decoración de texto de "overline".*/
     text-decoration: overline;
 }
-h3 {
+h3 { /*Las etiquetas ```h3``` se colocarán un color de "aquamarine", poner "border-radius" de 10% y poner un solido color de borde "saddlebeown".*/
     color: aquamarine;
     border-radius: 10%;
     border: 2px solid saddlebrown;
 }
-p strong {
+p strong { /*Los hijos de la etiqueta ```p```, es deicr, ```strong``` tendrán un color "brown".*/
     color: brown;
 }
-  .long {
+  .long {  /*Las etiquetas que son de las clases "long", tendrán un color de fondo de "yellowgreen".*/
     background-color: yellowgreen;
   }
-  img {
+  img {  /*Las etiquetas de ```img``` llevarán de un ```border-radius``` del 25% y un tamaño del 100%.*/
     border-radius: 25%;
     width: 100%;
     height: auto;
